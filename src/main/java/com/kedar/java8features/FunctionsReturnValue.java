@@ -3,7 +3,7 @@ package com.kedar.java8features;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-public class Functions {
+public class FunctionsReturnValue {
 
     public static void main(String[] args) {
 
