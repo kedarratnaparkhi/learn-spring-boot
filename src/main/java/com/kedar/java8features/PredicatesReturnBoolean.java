@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
 
+// Learned from tutorial: https://www.youtube.com/watch?v=VRpHdSFWGPs
+
 public class PredicatesReturnBoolean {
 
     static List<String> phoneNumbers = Arrays.asList("8923*****", "08923*****", "087458*****", "0877******");

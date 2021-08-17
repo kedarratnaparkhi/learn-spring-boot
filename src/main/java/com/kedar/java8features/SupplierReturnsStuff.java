@@ -6,6 +6,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Supplier;
 
+// Learned from tutorial: https://www.youtube.com/watch?v=VRpHdSFWGPs
+
 public class SupplierReturnsStuff {
 
     public static void main(String[] args) {

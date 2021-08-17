@@ -5,6 +5,8 @@ import com.kedar.java8features.extras.Person;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
+// Learned from tutorial: https://www.youtube.com/watch?v=VRpHdSFWGPs
+
 public class ConsumersReturnVoid {
 
     public static void main(String[] args) {

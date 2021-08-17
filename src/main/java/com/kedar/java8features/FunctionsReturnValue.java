@@ -3,6 +3,9 @@ package com.kedar.java8features;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
+
+// Learned from tutorial: https://www.youtube.com/watch?v=VRpHdSFWGPs
+
 public class FunctionsReturnValue {
 
     public static void main(String[] args) {
