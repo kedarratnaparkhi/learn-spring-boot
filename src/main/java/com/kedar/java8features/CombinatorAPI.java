@@ -1,4 +1,4 @@
 package com.kedar.java8features;
 
-public class StreamAPI {
+public class CombinatorAPI {
 }
