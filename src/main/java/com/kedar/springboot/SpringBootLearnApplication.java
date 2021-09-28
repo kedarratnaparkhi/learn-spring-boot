@@ -1,23 +1,11 @@
 package com.kedar.springboot;
 
-//import com.kedar.springboot.domain.Customers;
-//import com.kedar.springboot.domain.Orders;
-//import com.kedar.springboot.repository.CustomerRepository;
-//import com.kedar.springboot.repository.OrderRepository;
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.context.annotation.Bean;
-
-import org.slf4j.Logger;
-
-import java.util.HashSet;
-import java.util.Set;
 
 @SpringBootApplication
-@EntityScan
 public class SpringBootLearnApplication {
 
     private static final Logger log = LoggerFactory.getLogger(SpringBootLearnApplication.class);

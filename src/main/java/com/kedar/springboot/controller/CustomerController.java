@@ -1,21 +1,36 @@
 package com.kedar.springboot.controller;
 
 import com.google.gson.Gson;
+import com.kedar.springboot.bean.Sample;
 import com.kedar.springboot.domain.Customers;
 import com.kedar.springboot.service.CustomerService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+import org.springframework.context.annotation.Scope;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
 public class CustomerController {
 
     private CustomerService customerService;
+    private Sample sample;
 
-    public CustomerController(CustomerService customerService){
-        this.customerService = customerService;
-    }
+// Constructor Dependency Injection
+//    @Autowired
+//    public CustomerController(CustomerService customerService, Sample sample){
+//        this.customerService = customerService;
+//        this.sample = sample;
+//    }
 
+
+// Setter Dependency Injection
+//    @Autowired
+//    public void setSample(Sample sample){
+//        this.sample = sample;
+//    }
 
     @GetMapping("/customer/{firstName}")
     @ResponseBody
@@ -29,5 +44,10 @@ public class CustomerController {
         Customers cust = gson.fromJson(customerData, Customers.class);
         //orderRepository.saveAll(cust.getOrders());
         return customerService.saveCustomer(cust);
+    }
+
+    @GetMapping("/sample")
+    public String getAutowiredValue(){
+        return sample.toString();
     }
 }
