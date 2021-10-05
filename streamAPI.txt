@@ -3,12 +3,13 @@
 
 
  - Stream API
-	- filter
-	- map
+	- filter ...Done
+	- map ...Done
 	- mapToXXX
-	- collect
-	- forEach
+	- collect ...Done
+	- forEach ...Done
 	- andThen (chain multiple functions(?))
+	- findAny / findFirst ...Done
 
  - Optionals
  
