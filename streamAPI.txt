@@ -1,0 +1,19 @@
+
+
+
+
+ - Stream API
+	- filter
+	- map
+	- mapToXXX
+	- collect
+	- forEach
+	- andThen (chain multiple functions(?))
+
+ - Optionals
+ 
+ - Custom Predicates
+
+ - Custom Functions
+
+ - Custom Consumers
