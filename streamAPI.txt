@@ -13,10 +13,10 @@
 
  - Optionals
  
- - Custom Predicates
+ - Custom Predicates ...Done
 
- - Custom Functions
+ - Custom Functions ...Done
 
- - Custom Consumers
+ - Custom Consumers ...Done
 
- - Custom Suppliers
+ - Custom Suppliers ...Done

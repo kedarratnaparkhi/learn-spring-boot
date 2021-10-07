@@ -1,11 +1,11 @@
-package com.kedar.streams.revision;
+package com.kedar.streams.revision.Oct05;
 
 import com.kedar.java8features.extras.Employee;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Revise0510 {
+public class Revise {
 
     public static void main(String[] args) {
         List<Employee> employees = Employee.listOfEmployees;
