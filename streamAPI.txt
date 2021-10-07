@@ -5,10 +5,10 @@
  - Stream API
 	- filter ...Done
 	- map ...Done
-	- mapToXXX
+	- mapToXXX ...Done
 	- collect ...Done
 	- forEach ...Done
-	- andThen (chain multiple functions(?))
+	- andThen (chain multiple functions(?)) ...Done
 	- findAny / findFirst ...Done
 
  - Optionals
@@ -18,3 +18,5 @@
  - Custom Functions
 
  - Custom Consumers
+
+ - Custom Suppliers
